@@ -76,6 +76,18 @@ export const Products = _.keyBy<Product>(
 			groups: ["snack"],
 			tags: ["sweet"],
 		},
+		{
+			id: "milk",
+			price: 24,
+			groups: ["food"],
+			tags: ["sweet"],
+		},
+		{
+			id: "juice",
+			price: 30,
+			groups: ["drink"],
+			tags: ["sweet", "double-digit"],
+		},
 	],
 	(p) => p.id
 );
