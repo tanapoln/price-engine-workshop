@@ -41,15 +41,15 @@ test("promotion engine", () => {
 			},
 		},
 		// Task: buy 2 items in the same group, discount 10% of the least expensive item
-        // Task: buy 2 items in the same group, discount $5 of the least expensive item
+		// Task: buy 2 items in the same group, discount $5 of the least expensive item
 		// Task: buy 4 items in the same group, the least expensive item is free
-        // Task: buy snacks more than $200, discount all items by 5%
-        // Task: buy at least 5 snacks, get 1 soda for free.
-        // Task: try to combine items with different promotions. Discounted items should be excluded from other promotions.
-        // Task: same as the first case but discount must be weighted by the price of the item.
-        // Task: buy lay*1 and soda*1, get a candy for free.
-        // Task: buy [milk or juice] * 3, get [soda or milk] * 1 for free.
-        // Task: buy milk*1 + juice*1 + soda*1, get [bento or lay] * 1 for free.
+		// Task: buy snacks more than $200, discount all items by 5%
+		// Task: buy at least 5 snacks, get 1 soda for free.
+		// Task: try to combine items with different promotions. Discounted items should be excluded from other promotions.
+		// Task: same as the first case but discount must be weighted by the price of the item.
+		// Task: buy lay*1 and soda*1, get a candy for free.
+		// Task: buy [milk or juice] * 3, get [soda or milk] * 1 for free.
+		// Task: buy milk*1 + juice*1 + soda*1, get [bento or lay] * 1 for free.
 	];
 
 	function buildCart(items: string[], promotions: string[]): Cart {
